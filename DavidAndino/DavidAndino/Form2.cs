@@ -12,14 +12,14 @@ namespace DavidAndino
 
         private void Ejecutarbutton_Click(object sender, EventArgs e)
         {
-            decimal Capital = 200000;
-            decimal i = 0.015m;
-            decimal t = 0;
-            decimal I;
-            decimal NuevoCapital;
+            double Capital = 200000;
+            double i = 0.015;
+            double t = 0;
+            double I;
+            double NuevoCapital;
 
 
-            for (decimal a = 1; a < 13; a++)
+            for (double a = 1; a < 13; a++)
             {
 
                 t++;
